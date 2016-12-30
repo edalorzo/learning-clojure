@@ -162,7 +162,7 @@
     (count-down (dec n))))
 
 (defn quicksort [xs]
-  (if-not (empty? xs)
+  (if (not-empty xs)
     (let [x (first xs)
           xs (rest xs)
           ls (quicksort (filter #(< % x) xs)) 
