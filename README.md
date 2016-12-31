@@ -1,36 +1,160 @@
-# learn-clojure
+# Learning Clojure
 
-FIXME: description
+This is my personal Clojure learning project.
 
-## Installation
+## Clojure Documentation and References
 
-Download from http://example.com/FIXME.
+* [Clojure Home Page](http://clojure.org/)
+* [Clojure Reference](http://clojure.org/reference/reader)
+* [Clojure API Documentation](http://clojure.org/api/api)
+* [Clojure Cheatsheet](http://clojure.org/api/cheatsheet)
+* [ClojureScript Cheatsheet](http://cljs.info/cheatsheet/)
+* [Clojure API Reference](https://clojure.github.io/clojure/index.html)
+* [Clojure Quick Reference](http://faustus.webatu.com/clj-quick-ref.html)
+* [Clojure - Functional Programming for the JVM](http://java.ociweb.com/mark/clojure/article.html)
+* [Clojure Style Guide](https://github.com/bbatsov/clojure-style-guide)
 
-## Usage
+## Clojure Online REPLs
 
-FIXME: explanation
+* [Clojure Online REPL](http://www.tryclj.com/)
+* [ClojureScript Online REPL](http://himera.herokuapp.com/index.html)
 
-    $ java -jar learn-clojure-0.1.0-standalone.jar [args]
+## Clojure Libraries and OpenSource
 
-## Options
+* [Clojars Community Repository](https://clojars.org/)
+* [Clojure at Github](https://github.com/clojure)
+* See also [Clojure Toolbox](http://www.clojure-toolbox.com/)
 
-FIXME: listing of options this app accepts.
+## Clojure Web Frameworks
 
-## Examples
+* [Luminus](http://www.luminusweb.net/)
+* [Hoplon](http://hoplon.io/)
+* [Compojure](https://github.com/weavejester/compojure/wiki)
+* [Ring](https://github.com/ring-clojure/ring)
+* [Om](https://github.com/omcljs/om)
 
-...
+## Clojure Editors
 
-### Bugs
+* [Leiningen](http://leiningen.org/) and a number of [plugins](https://github.com/technomancy/leiningen/wiki/Plugins)
+* [Sublime Text Support](https://github.com/jasongilman/SublimeClojureSetup)
+* [Atom](https://atom.io/) with [Parinfer](https://shaunlebron.github.io/parinfer/)
+* [Emacs](http://aquamacs.org/) with a [number of plugins](https://github.com/clojure-emacs).
+* [Light Table Editor](http://lighttable.com/)
+* [Cursive IntelliJ Plugin](https://cursive-ide.com/)
+* [Counterclockwise Eclipse Plugin](http://doc.ccw-ide.org/documentation.html)
+* [Netbeans Enclojure Plugin](http://plugins.netbeans.org/plugin/8276/enclojure)
 
-...
+## Clojure Books
 
-### Any Other Sections
-### That You Think
-### Might be Useful
+**From O'Reilly**
 
-## License
+* [Clojure for the Brave and True](http://shop.oreilly.com/product/9781593275914.do) (free  to [read online](http://www.braveclojure.com/))
+* [Living Clojure](http://shop.oreilly.com/product/0636920034292.do)
+* [Clojure Cookbook](http://shop.oreilly.com/product/0636920029786.do)
+* [Clojure Programming](http://shop.oreilly.com/product/0636920013754.do)
 
-Copyright © 2016 FIXME
+**From Manning**
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+* [The Joy of Clojure](https://www.manning.com/books/the-joy-of-clojure-second-edition)
+* [Clojure in Action](https://www.manning.com/books/clojure-in-action-second-edition)
+
+**From APress**
+
+* [Practical Clojure](http://www.apress.com/la/book/9781430272311)
+
+**From The Pragmatic Bookshelf**
+
+* [Clojure Applied](https://pragprog.com/book/vmclojeco/clojure-applied)
+* [Mastering Clojure Macros](https://pragprog.com/book/cjclojure/mastering-clojure-macros)
+* [Web Development with Clojure](https://pragprog.com/book/dswdcloj/web-development-with-clojure)
+* [Programming Clojure](https://pragprog.com/book/shcloj2/programming-clojure)
+
+**From PackPub**
+
+* [Clojure High Performance Programming](https://www.packtpub.com/application-development/clojure-high-performance-programming)
+* [Clojure Reactive Programming](https://www.packtpub.com/web-development/clojure-reactive-programming)
+* [Clojure for Domain Specific Languages](https://www.packtpub.com/application-development/clojure-domain-specific-languages)
+* [Clojure Data Structures and Algorithms Cookbook](https://www.packtpub.com/application-development/clojure-data-structures-and-algorithms-cookbook)
+* [Clojure Web Development Essentials](https://www.packtpub.com/application-development/clojure-web-development-essentials)
+* [Learning ClojureScript](https://www.packtpub.com/web-development/learning-clojurescript)
+* [Mastering Clojure](https://www.packtpub.com/application-development/mastering-clojure)
+* And [many more...](https://www.packtpub.com/all/?search=clojure&offset=&rows=48&sort=)
+
+**From No Starch Press**
+
+* [Clojure for the Brave and True](https://www.nostarch.com/clojure)
+
+**From Lean Pub**
+
+* [Programming in Clojure](https://leanpub.com/programming-clojure)
+* [ClojureScript Unraveled](https://leanpub.com/clojurescript-unraveled)
+
+## Blogs and Interesting Articles
+
+* [Planet Clojure Blog](http://planet.clojure.in/)
+* [Disclojure Blog](http://disclojure.org/)
+* [An In-Depth Look at Clojure Collections](https://www.infoq.com/articles/in-depth-look-clojure-collections)
+* [Clojure Design Patterns](http://mishadoff.com/blog/clojure-design-patterns/)
+
+## Interesting Videos
+
+**ClojureTV**
+
+* [Clojure at Scale @WalmartLabs](https://www.youtube.com/watch?v=av9Xi6CNqq4)
+* [Components Just Enough Structure by Stuart Sierra](https://www.youtube.com/watch?v=13cmHf_kt-Q)
+* [ClojureScript for Skeptics](https://www.youtube.com/watch?v=gsffg5xxFQI)
+* [Debugging Clojure with Cursive](https://www.youtube.com/watch?v=av9Xi6CNqq4)
+* [Clojure Made Simple](https://www.youtube.com/watch?v=VSdnJDO-xdg)
+* [One Ring to Bind Them](https://www.youtube.com/watch?v=qqNevHwH47w)
+* [Rich Hickey Unveils ClojureScript](https://www.youtube.com/watch?v=tVooR-dF_Ag)
+
+**InfoQ**
+
+* [RESTful Clojure](https://www.infoq.com/presentations/RESTful-Clojure)
+* [Clojure and the Web](https://www.infoq.com/presentations/Clojure-and-the-Web)
+* [What Sucks about Clojure...and why you'll love it anyway](https://www.infoq.com/presentations/What-Sucks-about-Clojure-and-Why-You-ll-Love-It-Anyway)
+* [Clojure after the Honeymoon](https://www.infoq.com/presentations/Clojure-Java-Story)
+* [Down the Clojure Rabbit Hole](https://www.infoq.com/presentations/clojure-stories?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global)
+* [An Introduction to Clojure and ClojureScript](https://www.infoq.com/presentations/clojure-clojurescript-libraries?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global)
+* [Relevance of ClojureScript](https://www.infoq.com/presentations/clojurescript-es6?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global)
+* [Why Prismatic Goes Faster with Clojure](https://www.infoq.com/presentations/Why-Prismatic-Goes-Faster-With-Clojure)
+* [Clojure core.async](https://www.infoq.com/presentations/clojure-core-async)
+* [Concurrency in Clojure](https://www.infoq.com/presentations/Concurrency-Clojure)
+* [Clojure Solution to the Expression Problem](https://www.infoq.com/presentations/Clojure-Expression-Problem)
+* [Clojure: The Art of Abstraction](https://www.infoq.com/presentations/Clojure-The-Art-of-Abstraction)
+* [Namespaces, Vars and Symbols (Oh, My!)](https://www.infoq.com/presentations/Clojure-Namespaces-Vars-Symbols)
+* [Clojure in the Field](https://www.infoq.com/presentations/Clojure-tips)
+* [Continuous Testing in Clojure](https://www.infoq.com/presentations/Continuous-Testing-Clojure)
+* [Leiningen 2 - Humane build management for Clojure](https://www.infoq.com/presentations/Leiningen-2-Clojure)
+* [Macros: Why, When and How?](https://www.infoq.com/presentations/macros-clojure-west-2013)
+* [Persistent Data Structures and Managed References by Rich Hickey](https://www.infoq.com/presentations/Value-Identity-State-Rich-Hickey)
+
+**Channel 9**
+
+* [Expert to Expert: Rich Hickey and Brian Beckman - Insider Clojure](https://channel9.msdn.com/shows/Going+Deep/Expert-to-Expert-Rich-Hickey-and-Brian-Beckman-Inside-Clojure/)
+
+## Clojure Adoption Stories
+
+* [Clojure at Scale by Walmart](http://blog.cognitect.com/blog/2015/6/30/walmart-runs-clojure-at-scale)
+* [60,000% Growth Using Clojure and AWS by Room Key](http://www.colinsteele.org/post/27929539434/60000-growth-in-7-months-using-clojure-and-aws)
+* [ClojureScript Integration Roadmap by Greenius](http://about.greeni.us/greenius-clojurescript-integration-roadmap/)
+* [A New Era of Application Services at Puppet Labs](https://puppet.com/blog/a-new-era-of-application-services-at-puppet-labs)
+* [For Clojure Nerds: Puppet Labs Application Services](https://puppet.com/blog/for-clojure-nerds-puppet-labs-application-services)
+* [Beanstalk + Clojure = Love (and 20x better performance)](http://blog.beanstalkapp.com/post/23998022427/beanstalk-clojure-love-and-20x-better)
+* [Clojure at a Newspaper](http://www.pitheringabout.com/?p=1018)
+* [Lessons Learned from Adopting Clojure](https://yow.eventer.com/yow-2013-1080/lessons-learned-from-adopting-clojure-by-jey-fields-1397)
+* [Unlocking Data-Driven Systems by Consumer Reports](https://www.youtube.com/watch?v=BNkYYYyfF48)
+
+## Web Sites with Exercises
+
+* [4Clojure](http://www.4clojure.com/)
+* [ClojureKoans](https://github.com/functional-koans/clojure-koans)
+* [ClojureScript Koans](http://clojurescriptkoans.com/)
+* [HackerRank](https://www.hackerrank.com/)
+* [Code Wars](https://www.codewars.com/dashboard)
+
+## Mobile Apps
+
+* [Textastic](https://www.textasticapp.com/lisp) which I use to program Clojure in my iPad
+* [Lisping](https://itunes.apple.com/us/app/lisping/id512138518?mt=8) an iOS editor with Clojure support.
+* [Replete](https://itunes.apple.com/us/app/replete/id1013465639?mt=8) a iOS ClojureScript REPL.

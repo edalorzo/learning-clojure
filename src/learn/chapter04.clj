@@ -16,12 +16,6 @@
       (implementation thing)
       (throw (IllegalArgumentException. (str "No implementation found for " dispatch-value))))))
 
-(comment
-  ;;just testing imports and dependencies
-  (defn my-pow [x y]
-    (math/pow x y)))
-
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; POLYMORPHISM AND MULTIMETHODS
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -214,3 +208,65 @@
   (defmethod profit-based-affiliate-fee :default
     [user] (fee-amount 0.02M user))
 )
+
+
+(defmulti size-up (fn [observer observed]
+                    [(:rating observer) (:rating observed)]))
+
+(defmethod size-up [:rating/platinum :rating/ANY]
+  [_ observed] (str (:login observed) " seems scrawny."))
+
+(defmethod size-up [:rating/ANY :rating/platinum]
+  [_ observed] (str (:login observed) " shimmers with unearthly light."))
+
+(comment
+  
+  ;;the following invocation would cause ambiguties unless we use a prefer method
+  (size-up {:rating :rating/platinum} user-4)
+
+  ;;prefer the first dispatch over the second one  
+  (prefer-method size-up [:rating/ANY :rating/platinum] 
+               [:rating/platinum :rating/ANY])
+)
+
+
+(comment
+
+  ;; since the clojure generic math function uses multimethods for its definitions
+  ;; I can take their pow function that works on doubles and make an implementation 
+  ;; that works on longs, and voila, it now works pefectly
+  
+  (defmethod math/pow [java.lang.Long java.lang.Long]
+      [x y] (long (Math/pow x y)))  
+  
+  ;;just testing imports and dependencies
+  (defn my-pow [x y]
+    (math/pow x y))
+  
+)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; USER-DEFINED HIERARCHIES
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(def my-hierarchy (make-hierarchy))
+(derive my-hierarchy :a :letter) ;; Meaning :a is a :letter
+(def my-hierarchy 
+  (-> my-hierarchy
+      (derive :a :letter)
+      (derive :b :letter)
+      (derive :c :letter)))
+
+(isa? my-hierarchy :a :letter) ;;yields true
+(isa? my-hierarchy :d :letter) ;;yields false
+(parents my-hierarchy :a) ;; yields #{:letter}
+(descendants my-hierarchy :letter) ;;yields #{:a :b :c}
+
+(defmulti letter? identity :hierarchy #'my-hierarchy)
+(defmethod letter? :letter
+  [_] true)
+  
+
+
+
+
