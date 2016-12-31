@@ -89,6 +89,25 @@ This is my personal Clojure learning project.
 * [Programming in Clojure](https://leanpub.com/programming-clojure)
 * [ClojureScript Unraveled](https://leanpub.com/clojurescript-unraveled)
 
+## Online Training
+
+**From PluralSight**
+
+* [Clojure Fundamentals](https://www.pluralsight.com/courses/clojure-fundamentals-part-one)
+* [Functional Programming with Clojure](https://www.pluralsight.com/courses/functional-programming-clojure)
+* [Clojure Concurrency](https://www.pluralsight.com/courses/clojure-concurrency-tutorial)
+
+**From Safari/O'Reilly**
+
+* [Learning Clojure](http://my.safaribooksonline.com/video/programming/clojure/9781771373623#)
+* [Building Microservices with Clojure](http://my.safaribooksonline.com/video/programming/clojure/9781771374354)
+* [Building Web Applications with Clojure](http://my.safaribooksonline.com/video/programming/clojure/9781783286157)
+* [Building Web Applications in Clojure](http://my.safaribooksonline.com/video/programming/clojure/9781491917206)
+* [Clojure Inside Out](http://my.safaribooksonline.com/video/programming/clojure/9781449368647)
+* [Learning ClojureScript](http://my.safaribooksonline.com/video/programming/clojure/9781771373890)
+* [Communicating Sequential Processes with core.async](http://my.safaribooksonline.com/video/programming/clojure/9781771374293)
+* [Functional Thinking](http://my.safaribooksonline.com/video/programming/9781449368630)
+
 ## Blogs and Interesting Articles
 
 * [Planet Clojure Blog](http://planet.clojure.in/)
