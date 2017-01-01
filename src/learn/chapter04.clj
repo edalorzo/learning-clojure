@@ -60,9 +60,9 @@
     [user] (fee-amount 0.01M user))
 
   (defmethod affiliate-fee :default
-    [user] (fee-amount 0.02M user))
+    [user] (fee-amount 0.02M user)))
   
-)
+
 
 ;;the default method can also be defined in the dispatch
 
@@ -93,7 +93,7 @@
 ; google.com    Gold/Platinum       0.03
 ;-----------------------------------------------------
 
-(comment
+(comment)
   
 ;; the fee category will be our new dispatch function
 (defn fee-category [user]
@@ -130,7 +130,7 @@
 (defmethod profit-based-affiliate-fee :default
   [user] (fee-amount 0.02M user))
 
-)
+
 
 ;;MULTIPLE DISPATCH AND SUBTYPE POLYMORPHISM
 
@@ -180,8 +180,8 @@
 (comment
   ;;if now we do this, we can see the the multimethod criteria
   ;;takes into accout the hierarchical aspect to determine dispatch method
-  (map c4/greet-user [c4/user-1 c4/user-2 c4/user-3 c4/user-4])
-)
+  (map c4/greet-user [c4/user-1 c4/user-2 c4/user-3 c4/user-4]))
+
 
 
 ;; the fee category will be our new dispatch function
@@ -206,8 +206,8 @@
 (comment 
   ;;this default would not work now
   (defmethod profit-based-affiliate-fee :default
-    [user] (fee-amount 0.02M user))
-)
+    [user] (fee-amount 0.02M user)))
+
 
 
 (defmulti size-up (fn [observer observed]
@@ -226,8 +226,8 @@
 
   ;;prefer the first dispatch over the second one  
   (prefer-method size-up [:rating/ANY :rating/platinum] 
-               [:rating/platinum :rating/ANY])
-)
+               [:rating/platinum :rating/ANY]))
+
 
 
 (comment
@@ -241,9 +241,9 @@
   
   ;;just testing imports and dependencies
   (defn my-pow [x y]
-    (math/pow x y))
+    (math/pow x y)))
   
-)
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; USER-DEFINED HIERARCHIES
