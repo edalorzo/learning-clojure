@@ -101,3 +101,75 @@
   (clear-agent-errors bad-agent)
   (send bad-agent / 2)  ;;now this succeeds
 )
+
+;;;;;;;;;;;;;;;;;;
+;; ATOMS
+;;;;;;;;;;;;;;;;;;
+
+(def total-rows (atom 0))
+
+(comment 
+  
+  ;; You can dereference the ref in two ways
+  (deref total-rows)
+  
+  ;;using a reader macro
+  @total-rows)
+
+
+(reset! total-rows 10)
+(swap! total-rows + 100)
+
+;;;;;;;;;;;;;;;;;;
+;; VARS
+;;;;;;;;;;;;;;;;;;
+(comment
+  (def ^:dynamic *mysql-host*)
+
+  (defn db-query [db]
+    (binding [*mysql-host*]
+      (count *mysql-host*)))
+
+  (def mysql-hosts ["test-mysql" "dev-mysql" "stagin-mysql"])
+  (pmap db-query mysql-hosts))
+  
+;;;;;;;;;;;;;;;;;;
+;; WATCHERS
+;;;;;;;;;;;;;;;;;;
+
+(comment
+  (defn on-change [the-key the-ref old-val new-val]
+    (println "Just saw change from " old-val " to " new-val))
+
+  (add-watch total-rows :total-watcher on-change)
+  (swap! total-rows inc)
+  (remove-watch total-rows :total-watcher))
+
+;;;;;;;;;;;;;;;;;;
+;; FUTURES
+;;;;;;;;;;;;;;;;;;
+
+(defn long-calculation [a b]
+  (Thread/sleep 5000)
+  (* a b))
+
+(defn long-run []
+  (let [x (long-calculation 11 13)
+        y (long-calculation 13 17)
+        z (long-calculation 17 19)]
+    (* x y z)))
+
+(defn fust-run []
+  (let [x (future (long-calculation 11 13))
+        y (future (long-calculation 13 17))
+        z (future (long-calculation 17 19))]
+    (* @x @y @z)))
+
+(defn with-promise []
+  (let [p (promise)]
+    (future (Thread/sleep 5000)
+      (deliver p :done))
+    @p))
+
+
+
