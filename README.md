@@ -10,14 +10,14 @@ This is my personal Clojure learning project.
 * [Clojure Cheatsheet](http://clojure.org/api/cheatsheet)
 * [ClojureScript Cheatsheet](http://cljs.info/cheatsheet/)
 * [Clojure API Reference](https://clojure.github.io/clojure/index.html)
-* [Clojure Quick Reference](http://faustus.webatu.com/clj-quick-ref.html)
+* [Clojure Quick Reference](https://clojuredocs.org/quickref)
 * [Clojure - Functional Programming for the JVM](http://java.ociweb.com/mark/clojure/article.html)
 * [Clojure Style Guide](https://github.com/bbatsov/clojure-style-guide)
 
 ## Clojure Online REPLs
 
-* [Clojure Online REPL](http://www.tryclj.com/)
-* [ClojureScript Online REPL](http://himera.herokuapp.com/index.html)
+* [Clojure Online REPL](https://repl.it/)
+* [ClojureScript Online REPL](https://clojurescript.io)
 
 ## Clojure Libraries and OpenSource
 
