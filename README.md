@@ -18,6 +18,7 @@ This is my personal Clojure learning project.
 
 * [Clojure Online REPL](https://repl.it/)
 * [ClojureScript Online REPL](https://clojurescript.io)
+* [Gorilla REPL](http://gorilla-repl.org)
 
 ## Clojure Libraries and OpenSource
 
@@ -30,12 +31,17 @@ This is my personal Clojure learning project.
 * [Luminus](http://www.luminusweb.net/)
 * [Hoplon](http://hoplon.io/)
 * [Compojure](https://github.com/weavejester/compojure/wiki)
+* [Pedestal](http://pedestal.io/reference/index)
 * [Ring](https://github.com/ring-clojure/ring)
 * [Om](https://github.com/omcljs/om)
 
-## Clojure Editors
+## Build Tools
 
 * [Leiningen](http://leiningen.org/) and a number of [plugins](https://github.com/technomancy/leiningen/wiki/Plugins)
+* [Boot](https://github.com/boot-clj/boot)
+
+## Clojure Editors
+
 * [Sublime Text Support](https://github.com/jasongilman/SublimeClojureSetup)
 * [Atom](https://atom.io/) with [Parinfer](https://shaunlebron.github.io/parinfer/)
 * [Emacs](http://aquamacs.org/) with a [number of plugins](https://github.com/clojure-emacs).
