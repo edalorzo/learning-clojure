@@ -63,17 +63,21 @@ This is my personal Clojure learning project.
 
 * [The Joy of Clojure](https://www.manning.com/books/the-joy-of-clojure-second-edition)
 * [Clojure in Action](https://www.manning.com/books/clojure-in-action-second-edition)
+* [Clojure: The Essential Reference](https://www.manning.com/books/clojure-the-essential-reference)
 
 **From APress**
 
 * [Practical Clojure](http://www.apress.com/la/book/9781430272311)
+* [Quick Clojure](https://www.apress.com/la/book/9781484229514)
+* [Reactive with ClojureScript Recipes](https://www.apress.com/la/book/9781484230084)
 
 **From The Pragmatic Bookshelf**
 
 * [Clojure Applied](https://pragprog.com/book/vmclojeco/clojure-applied)
 * [Mastering Clojure Macros](https://pragprog.com/book/cjclojure/mastering-clojure-macros)
-* [Web Development with Clojure](https://pragprog.com/book/dswdcloj/web-development-with-clojure)
-* [Programming Clojure](https://pragprog.com/book/shcloj2/programming-clojure)
+* [Programming Clojure](https://pragprog.com/titles/shcloj3/programming-clojure-third-edition/)
+* [Web Development with Clojure](https://pragprog.com/titles/dswdcloj3/web-development-with-clojure-third-edition/)
+* [Functional Programming: A PragPub Anthology](https://pragprog.com/titles/ppanth/functional-programming-a-pragpub-anthology/)
 
 **From PackPub**
 
@@ -94,6 +98,10 @@ This is my personal Clojure learning project.
 
 * [Programming in Clojure](https://leanpub.com/programming-clojure)
 * [ClojureScript Unraveled](https://leanpub.com/clojurescript-unraveled)
+* [Elements of Clojure](https://leanpub.com/elementsofclojure)
+* [Clojure Extended: Java interop](https://leanpub.com/clojure-java-interop)
+* [Clojure Polymorphism](https://leanpub.com/clojurepolymorphism)
+* [Building a System in Clojure (and ClojureScript)](https://leanpub.com/building-a-system-in-clojure)
 
 ## Online Training
 
@@ -180,6 +188,6 @@ This is my personal Clojure learning project.
 
 ## Mobile Apps
 
-* [Textastic](https://www.textasticapp.com/lisp) which I use to program Clojure in my iPad
-* [Lisping](https://itunes.apple.com/us/app/lisping/id512138518?mt=8) an iOS editor with Clojure support.
-* [Replete](https://itunes.apple.com/us/app/replete/id1013465639?mt=8) a iOS ClojureScript REPL.
+* [Textastic](https://www.textasticapp.com) which I use to program Clojure in my iPad
+* [My List](https://apps.apple.com/us/app/my-lisp/id1245341806) an iOS editor with Clojure support.
+* [Replete](https://apps.apple.com/us/app/replete-repl/id1013465639) a iOS ClojureScript REPL.
