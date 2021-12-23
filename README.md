@@ -43,7 +43,9 @@ This is my personal Clojure learning project.
 
 ## Clojure Editors
 
-* [Sublime Text Support](https://github.com/jasongilman/SublimeClojureSetup)
+* [Clojure Sublimed](https://github.com/tonsky/Clojure-Sublimed), consider [this](https://tonsky.me/blog/sublime-clojure/)
+* [Sublime Clojure](https://github.com/jasongilman/SublimeClojureSetup)
+* [Sublime Tutkain](https://tutkain.flowthing.me)
 * [Atom](https://atom.io/) with [Parinfer](https://shaunlebron.github.io/parinfer/)
 * [Emacs](http://aquamacs.org/) with a [number of plugins](https://github.com/clojure-emacs).
 * [Light Table Editor](http://lighttable.com/)
