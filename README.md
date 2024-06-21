@@ -52,12 +52,13 @@ Some template engines:
 * [Clojure Sublimed](https://github.com/tonsky/Clojure-Sublimed), consider [this](https://tonsky.me/blog/sublime-clojure/)
 * [Sublime Clojure](https://github.com/jasongilman/SublimeClojureSetup)
 * [Sublime Tutkain](https://tutkain.flowthing.me)
-* [Atom](https://atom.io/) with [Parinfer](https://shaunlebron.github.io/parinfer/)
 * [Emacs](http://aquamacs.org/) with a [number of plugins](https://github.com/clojure-emacs).
 * [Light Table Editor](http://lighttable.com/)
 * [Cursive IntelliJ Plugin](https://cursive-ide.com/)
 * [Counterclockwise Eclipse Plugin](http://doc.ccw-ide.org/documentation.html)
 * [Netbeans Enclojure Plugin](http://plugins.netbeans.org/plugin/8276/enclojure)
+
+See if your favorite has [Parinfer](https://shaunlebron.github.io/parinfer/) support, which makes writing Clojure code so much easier and enjoyable.
 
 ## Clojure Books
 
