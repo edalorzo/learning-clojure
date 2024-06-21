@@ -183,7 +183,7 @@ This is my personal Clojure learning project.
 
 ## Web Sites with Exercises
 
-* [4Clojure](http://www.4clojure.com/)
+* [Exercism](https://exercism.org/tracks/clojure)
 * [ClojureKoans](https://github.com/functional-koans/clojure-koans)
 * [ClojureScript Koans](http://clojurescriptkoans.com/)
 * [HackerRank](https://www.hackerrank.com/)
