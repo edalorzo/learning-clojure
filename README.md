@@ -11,7 +11,6 @@ This is my personal Clojure learning project.
 * [ClojureScript Cheatsheet](http://cljs.info/cheatsheet/)
 * [Clojure API Reference](https://clojure.github.io/clojure/index.html)
 * [Clojure Quick Reference](https://clojuredocs.org/quickref)
-* [Clojure - Functional Programming for the JVM](http://java.ociweb.com/mark/clojure/article.html)
 * [Clojure Style Guide](https://github.com/bbatsov/clojure-style-guide)
 
 ## Clojure Online REPLs
