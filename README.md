@@ -28,10 +28,9 @@ This is my personal Clojure learning project.
 ## Clojure Web Frameworks
 
 * [Luminus](http://www.luminusweb.net/)
-* [Donkey](https://github.com/AppsFlyer/donkey)
+* [Pedestal](http://pedestal.io/pedestal/0.7/index.html)
 * [Hoplon](http://hoplon.io/)
 * [Compojure](https://github.com/weavejester/compojure/wiki)
-* [Pedestal](http://pedestal.io/reference/index)
 * [Ring](https://github.com/ring-clojure/ring)
 * [Om](https://github.com/omcljs/om)
 
