@@ -32,7 +32,15 @@ This is my personal Clojure learning project.
 * [Hoplon](http://hoplon.io/)
 * [Compojure](https://github.com/weavejester/compojure/wiki)
 * [Ring](https://github.com/ring-clojure/ring)
+* [Reitit](https://github.com/metosin/reitit)
 * [Om](https://github.com/omcljs/om)
+* [clj-http](https://github.com/dakrone/clj-http)
+
+Some template engines:
+
+* [Selmer](https://github.com/yogthos/Selmer)
+* [Hiccup](https://github.com/weavejester/hiccup)
+
 
 ## Build Tools
 
